@@ -1,5 +1,4 @@
-import os
-
+# Intro
 intro = """
 MISSION
 =============
@@ -18,11 +17,11 @@ Puzzled, you quickly try to...
 """
 print(intro)
 
+# Variables
 cypher = "qGBH71VNT03FC874IYI00BKEqjO0A19O6W07W6S327W158PqWRN91JVS30AV8854W004EGCqJ9648pX5W1i7W6B555Az11925HqX6m313T9E35Y0V67RCC05AXCqq5R7478Hc567HKW08T6GqAD2t4p8AL2u80X3S71W6Dq3L2287Z997C3F64KjLhYq2O2976J182W8U7323JqNFB18NMAa52FDP7343Bq"
-
 message = ""
 
-# Encrypt
+# Decrypt
 for letter in cypher:
     if letter in "0123456789":
         message += " "
